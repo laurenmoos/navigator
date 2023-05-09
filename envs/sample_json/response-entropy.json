@@ -1,0 +1,57 @@
+{
+  "backtrace": [
+    [
+      "__libc_start_main_impl",
+      4197068
+    ],
+    [
+      "__libc_init_first",
+      4375248
+    ],
+    [
+      "_dl_non_dynamic_init",
+      4371372
+    ],
+    [
+      "_dl_get_origin",
+      4546624
+    ],
+    [
+      "__libc_malloc",
+      4319628
+    ]
+  ],
+  "heap": {
+    "meta": {
+      "bounds": {
+        "start": 4861952,
+        "end": 5001216
+      },
+      "entropy": 5.6897903e-8
+    },
+    "allocations": {
+      "4864616": [
+        {
+          "id": 1956897982939184,
+          "pc": 4547000,
+          "start": 4864616,
+          "end": 4864656,
+          "size": 40
+        }
+      ]
+    },
+    "last_heap_update": {
+      "start": 4864616,
+      "allocation": [
+        {
+          "id": 1956897982939184,
+          "pc": 4547000,
+          "start": 4864616,
+          "end": 4864656,
+          "size": 40
+        }
+      ],
+      "operation": "Allocate"
+    }
+  }
+}
